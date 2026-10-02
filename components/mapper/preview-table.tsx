@@ -221,7 +221,7 @@ function Cell({
   }
 
   return (
-    <td className={cn("max-w-64 px-3 py-2 align-top", invalid && "bg-danger-soft")}>
+    <td className={cn("max-w-64 px-3 py-2 align-top", invalid && "min-w-48 bg-danger-soft")}>
       {invalid ? (
         <button
           type="button"

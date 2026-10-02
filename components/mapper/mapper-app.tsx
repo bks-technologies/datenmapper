@@ -1,10 +1,12 @@
 "use client";
 
+import { useEffect } from "react";
 import { STEPS, useMapper, type Step } from "@/lib/state/mapper-store";
 import { Badge } from "../ui/badge";
 import { Button } from "../ui/button";
 import { Card } from "../ui/card";
 import { Stepper } from "../ui/stepper";
+import { SiteFooter } from "../site-footer";
 import { Dropzone } from "./dropzone";
 import { MappingPanel } from "./mapping-panel";
 import { PreviewTable } from "./preview-table";
@@ -13,6 +15,11 @@ import { PushPanel } from "./push-panel";
 export function MapperApp() {
   const { state, schema, missingRequired, report, goTo, reset } = useMapper();
   const { step, file } = state;
+
+  // Neuer Schritt beginnt oben; sonst bleibt die Seite dort, wo der Weiter-Knopf war.
+  useEffect(() => {
+    window.scrollTo({ top: 0 });
+  }, [step]);
 
   const isEnabled = (id: Step) => {
     if (id === "upload") return true;
@@ -23,10 +30,12 @@ export function MapperApp() {
   };
 
   return (
-    <div className="mx-auto max-w-6xl px-4 pb-20 pt-8 sm:px-6">
+    <div className="mx-auto max-w-6xl px-4 pb-10 pt-8 sm:px-6">
       <header className="flex flex-wrap items-center justify-between gap-4">
         <div>
-          <h1 className="text-xl font-semibold tracking-tight">Datenmapper</h1>
+          <h1 className="flex items-center gap-2 text-xl font-semibold tracking-tight">
+            Datenmapper <Badge tone="accent">Demo</Badge>
+          </h1>
           <p className="text-[13px] text-muted">CSV oder JSON einlesen, dem Schema der {schema.name} zuordnen, prüfen, einspeisen.</p>
         </div>
         <Stepper steps={STEPS} current={step} isEnabled={isEnabled} onSelect={goTo} />
@@ -59,6 +68,8 @@ export function MapperApp() {
         {step === "review" && <PreviewTable />}
         {step === "push" && <PushPanel />}
       </main>
+
+      <SiteFooter />
     </div>
   );
 }

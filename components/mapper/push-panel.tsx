@@ -45,7 +45,7 @@ export function PushPanel() {
       <div className="grid gap-5 lg:grid-cols-[1fr_340px]">
         <Card
           title="In Ziel-System einspeisen"
-          description="Gültige Zeilen gehen paketweise an den Endpunkt. Der Endpunkt prüft jedes Paket noch einmal und meldet je Zeile zurück."
+          description="Gültige Zeilen gehen paketweise an den Endpunkt. Der Endpunkt prüft jedes Paket noch einmal und meldet je Zeile zurück. Das Zielsystem ist simuliert und speichert nichts."
         >
           <dl className="grid gap-x-6 gap-y-2 text-[13px] sm:grid-cols-[auto_1fr]">
             <dt className="text-muted">Ziel</dt>

@@ -24,5 +24,9 @@
     "tailwindcss": "^4",
     "typescript": "^5",
     "vitest": "^3.2.7"
+  },
+  "description": "CSV/JSON einem API-Schema zuordnen, prüfen und paketweise an einen REST-Endpunkt senden.",
+  "engines": {
+    "node": ">=20"
   }
 }

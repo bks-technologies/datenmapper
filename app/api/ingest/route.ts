@@ -7,15 +7,41 @@ import { validateRecords } from "@/lib/validate";
  */
 
 const MAX_RECORDS = 500;
+const MAX_BYTES = 1024 * 1024;
+
+/** Einfache Bremse je Instanz: öffentlich erreichbar, soll aber kein Rechenknecht für Fremde werden. */
+const WINDOW_MS = 60_000;
+const MAX_REQUESTS = 120;
+const hits = new Map<string, { count: number; since: number }>();
+
+function limited(ip: string) {
+  const now = Date.now();
+  const entry = hits.get(ip);
+  if (!entry || now - entry.since > WINDOW_MS) {
+    if (hits.size > 5000) hits.clear();
+    hits.set(ip, { count: 1, since: now });
+    return false;
+  }
+  entry.count++;
+  return entry.count > MAX_REQUESTS;
+}
 
 export async function POST(request: Request) {
+  const ip = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "lokal";
+  if (limited(ip)) return Response.json({ error: "Zu viele Anfragen, bitte kurz warten" }, { status: 429 });
+  if (Number(request.headers.get("content-length") ?? 0) > MAX_BYTES) {
+    return Response.json({ error: "Paket größer als 1 MB" }, { status: 413 });
+  }
+
   if (request.headers.get("x-simulate-outage") === "1") {
     return Response.json({ error: "Service vorübergehend nicht erreichbar (simuliert)" }, { status: 503 });
   }
 
   let body: unknown;
   try {
-    body = await request.json();
+    const text = await request.text();
+    if (text.length > MAX_BYTES) return Response.json({ error: "Paket größer als 1 MB" }, { status: 413 });
+    body = JSON.parse(text);
   } catch {
     return Response.json({ error: "Body ist kein JSON" }, { status: 400 });
   }
