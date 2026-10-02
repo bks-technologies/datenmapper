@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Datenmapper
 
-## Getting Started
-
-First, run the development server:
+CSV- oder JSON-Datei einlesen, Spalten den Feldern einer Ziel-API zuordnen, Daten prüfen,
+paketweise an einen (simulierten) REST-Endpunkt senden und das Ergebnis protokollieren.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev     # http://localhost:3000
+npm test        # Vitest: Parser, Zuordnung, Prüfung, Beispieldatei
+npm run build
+node scripts/beispieldaten.mjs   # Beispieldateien in public/ neu erzeugen
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Ablauf
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Import**: Drag-and-drop oder Dateiauswahl, CSV (Trennzeichen `; , Tab |` wird erkannt,
+   Anführungszeichen und Zeilenumbrüche im Feld nach RFC 4180, BOM) oder JSON (Array oder Objekt
+   mit Array, verschachtelte Felder werden zu `adresse.plz`). Bis 10 MB, alles im Browser.
+2. **Zuordnung**: je Zielfeld ein Dropdown mit den Quellspalten und Beispielwerten. Vorschlag
+   nach Spaltennamen und Aliassen (`Kdnr_01` → `customer_id`). Pflichtfelder ohne Quelle sperren
+   den nächsten Schritt.
+3. **Prüfung**: Vorschau mit rot markierten Zellen (Pflichtfeld, E-Mail, PLZ, Telefon, Datum,
+   Zahl, Dubletten bei eindeutigen Feldern). Filter „nur Fehler“ und je Feld. Rote Zellen lassen
+   sich per Klick korrigieren.
+4. **Einspeisen**: gültige Zeilen gehen in Paketen à 50 per `POST /api/ingest`. Der Endpunkt
+   prüft jedes Paket mit demselben Schema noch einmal und antwortet je Zeile. Bei 5xx/429 bis zu
+   drei Versuche mit Backoff, Abbruch jederzeit. Schalter „Ausfall simulieren“ erzwingt beim
+   ersten Versuch ein 503. Ergebnis: „142 Einträge verarbeitet, 136 übernommen, 6 Fehler“,
+   Protokoll, Liste der abgewiesenen Zeilen, Exporte (API-JSON, gemappte CSV, Fehlerbericht).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Aufbau
 
-## Learn More
+```
+lib/schema.ts              Zielschema (Felder, Typen, Pflicht, Aliasse, Endpunkt, Paketgröße)
+lib/parse.ts               CSV-/JSON-Parser
+lib/mapping.ts             Zuordnungsvorschlag, Anwenden der Zuordnung plus Korrekturen
+lib/validate.ts            Prüfregeln und Umwandlung in typisierte API-Objekte (Browser und Server)
+lib/push-engine.ts         Pakete, Wiederholung, Abbruch, Zusammenfassung
+lib/export.ts              CSV-Erzeugung, Download
+lib/state/mapper-store.tsx useReducer + Context; Prüfergebnis wird abgeleitet, nie gespeichert
+app/api/ingest/route.ts    simuliertes Zielsystem, speichert nichts
+components/ui/             Button, Card, Badge, Select, Stat, Switch, Stepper
+components/mapper/         Dropzone, MappingPanel, PreviewTable, PushPanel, ProtocolLog, MapperApp
+```
 
-To learn more about Next.js, take a look at the following resources:
+**Anderes Zielsystem:** neues `TargetSchema` in `lib/schema.ts` anlegen und an
+`<MapperProvider schema={…}>` übergeben. Für einen echten Endpunkt `endpoint` ändern und die
+Antwort auf das Format `{ received, accepted, rejected: [{ row, reasons }] }` abbilden
+(`lib/push-engine.ts`).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Die Beispieldateien in `public/` sind erfunden (Domains auf `.example`) und enthalten sieben
+absichtlich fehlerhafte Zeilen.

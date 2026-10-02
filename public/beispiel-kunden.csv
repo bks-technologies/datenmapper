@@ -1,0 +1,143 @@
+﻿Kdnr_01;Firma;Vorname;Nachname;E-Mail;Tel.;Straße;PLZ;Ort;Kunde seit;Umsatz;Bemerkung
+K-10001;Autovermietung Wimmer GmbH;Anna;Wimmer;anna.wimmer@autovermietung-wimmer.example;+49 8171 776846;Gewerbering 44;82515;Wolfratshausen;21.07.2020;61.606,30;
+K-10002;Zahntechnik Maier GmbH;Sabine;Maier;sabine.maier@zahntechnik-maier.example;+49 8171 521105;Schulstraße 65;80331;München;20.01.2023;11.055,28;
+K-10003;Steuerberatung Schuster GmbH;Petra;Schuster;petra.schuster@steuerberatung-schuster.example;+49 8171 401847;Gewerbering 27;80331;München;26.11.2020;13.731,58;
+K-10004;Kfz-Service Schmid GmbH;Paul;Schmid;paul.schmid@kfz-service-schmid.example;+49 8171 346141;Lindenweg 41;82377;Penzberg;21.11.2018;37.929,87;
+K-10005;Zahntechnik Huber GmbH;Petra;Huber;petra.huber@zahntechnik-huber.example;+49 8171 248995;Am Anger 23;83646;Bad Tölz;19.12.2022;32.801,10;
+K-10006;Steuerberatung Brandl GmbH;Felix;Brandl;felix.brandl@steuerberatung-brandl.example;+49 8171 671616;Isarstraße 42;82515;Wolfratshausen;26.06.2024;45.445,46;
+K-10007;Malerbetrieb Weber GmbH;Petra;Weber;petra.weber@malerbetrieb-weber.example;+49 8171 452288;Gewerbering 71;82515;Wolfratshausen;17.05.2020;9.996,65;
+K-10008;Haustechnik Weber GmbH;Lukas;Weber;lukas.weber@haustechnik-weber.example;+49 8171 229827;Lindenweg 48;82538;Geretsried;28.03.2023;12.401,55;
+K-10009;Physiotherapie Wimmer GmbH;Michael;Wimmer;michael.wimmer@physiotherapie-wimmer.example;+49 8171 323464;Hauptstraße 1;83607;Holzkirchen;22.04.2018;55.515,60;
+K-10010;Steuerberatung Hofmann GmbH;Stefan;Hofmann;stefan.hofmann@steuerberatung-hofmann.example;+49 8171 904848;Hauptstraße 40;82515;Wolfratshausen;25.03.2020;267,27;
+K-10011;Elektro Wimmer GmbH;Tobias;Wimmer;tobias.wimmer@elektro-wimmer.example;+49 8171 711437;Bahnhofstraße 18;83607;Holzkirchen;06.12.2022;18.804,11;
+K-10012;Malerbetrieb Kellner GmbH;Anna;Kellner;stefan.huber(at)elektro-huber.example;+49 8171 927125;Hauptstraße 56;80331;München;14.01.2018;80.372,06;"Rückruf erbeten; bitte vormittags"
+K-10013;Kfz-Service Moser GmbH;Michael;Moser;michael.moser@kfz-service-moser.example;+49 8171 754898;Schulstraße 32;83607;Holzkirchen;22.06.2019;21.127,29;
+K-10014;Zahntechnik Brandl GmbH;Michael;Brandl;michael.brandl@zahntechnik-brandl.example;+49 8171 480476;Bahnhofstraße 25;80331;München;21.05.2023;88.693,37;
+K-10015;Kfz-Service Moser GmbH;Tobias;Moser;tobias.moser@kfz-service-moser.example;+49 8171 601635;Gewerbering 76;82515;Wolfratshausen;19.02.2021;43.386,49;
+K-10016;Steuerberatung Wagner GmbH;Lea;Wagner;lea.wagner@steuerberatung-wagner.example;+49 8171 426207;Gewerbering 3;82377;Penzberg;16.07.2024;26.895,26;
+K-10017;Autovermietung Schuster GmbH;Jonas;Schuster;jonas.schuster@autovermietung-schuster.example;+49 8171 795592;Gewerbering 74;82515;Wolfratshausen;19.06.2018;81.901,66;
+K-10018;Malerbetrieb Huber GmbH;Andreas;Huber;andreas.huber@malerbetrieb-huber.example;+49 8171 222363;Hauptstraße 9;80331;München;21.11.2018;7.636,15;"Rückruf erbeten; bitte vormittags"
+K-10019;Haustechnik Riedl GmbH;Julia;Riedl;julia.riedl@haustechnik-riedl.example;+49 8171 510720;Schulstraße 34;82538;Geretsried;06.09.2019;60.637,81;
+K-10020;Elektro Weber GmbH;Paul;Weber;paul.weber@elektro-weber.example;+49 8171 932982;Lindenweg 10;82515;Wolfratshausen;23.12.2019;18.911,41;
+K-10021;Autovermietung Bauer GmbH;Jonas;Bauer;jonas.bauer@autovermietung-bauer.example;+49 8171 167708;Am Anger 26;80331;München;16.06.2025;374,87;"Rückruf erbeten; bitte vormittags"
+K-10022;Autovermietung Bauer GmbH;Paul;Bauer;paul.bauer@autovermietung-bauer.example;+49 8171 869444;Schulstraße 65;83607;Holzkirchen;22.10.2021;59.565,74;
+K-10023;Gartenbau Weber GmbH;Laura;Weber;laura.weber@gartenbau-weber.example;+49 8171 669533;Gewerbering 71;82377;Penzberg;16.09.2023;76.066,45;
+K-10024;Kfz-Service Hofmann GmbH;Paul;Hofmann;paul.hofmann@kfz-service-hofmann.example;+49 8171 894384;Isarstraße 60;83607;Holzkirchen;11.01.2020;85.966,61;
+K-10025;Malerbetrieb Maier GmbH;Jonas;Maier;jonas.maier@malerbetrieb-maier.example;+49 8171 740314;Lindenweg 36;82538;Geretsried;26.10.2023;78.484,60;
+K-10026;Steuerberatung Schmid GmbH;Michael;Schmid;michael.schmid@steuerberatung-schmid.example;+49 8171 308300;Schulstraße 66;82377;Penzberg;12.03.2022;30.419,55;
+K-10027;Zahntechnik Bauer GmbH;Michael;Bauer;michael.bauer@zahntechnik-bauer.example;+49 8171 119421;Isarstraße 72;83607;Holzkirchen;01.02.2021;15.567,86;
+K-10028;Haustechnik Schuster GmbH;Andreas;Schuster;andreas.schuster@haustechnik-schuster.example;+49 8171 632424;Gewerbering 11;82538;Geretsried;18.01.2024;29.814,62;
+K-10029;Schreinerei Brandl GmbH;Andreas;Brandl;andreas.brandl@schreinerei-brandl.example;+49 8171 190232;Hauptstraße 50;82319;Starnberg;20.09.2022;20.239,32;
+K-10030;Steuerberatung Maier GmbH;Sophie;Maier;sophie.maier@steuerberatung-maier.example;+49 8171 147481;Isarstraße 33;80331;München;23.03.2025;71.277,40;
+K-10031;Kfz-Service Bauer GmbH;Sabine;Bauer;sabine.bauer@kfz-service-bauer.example;+49 8171 811545;Gewerbering 73;82377;Penzberg;24.06.2024;77.234,90;
+K-10032;Haustechnik Wagner GmbH;Katharina;Wagner;katharina.wagner@haustechnik-wagner.example;+49 8171 335773;Schulstraße 70;83607;Holzkirchen;27.01.2018;86.092,39;
+K-10033;Gartenbau Huber GmbH;Jonas;Huber;jonas.huber@gartenbau-huber.example;+49 8171 304078;Hauptstraße 4;82377;Penzberg;04.04.2021;8.415,93;
+K-10034;Malerbetrieb Kellner GmbH;Lea;Kellner;lea.kellner@malerbetrieb-kellner.example;+49 8171 968714;Gewerbering 77;82377;Penzberg;20.05.2022;64.037,26;
+K-10035;Elektro Wagner GmbH;Sabine;Wagner;sabine.wagner@elektro-wagner.example;+49 8171 448255;Lindenweg 10;82319;Starnberg;19.06.2022;5.971,15;"Rückruf erbeten; bitte vormittags"
+K-10036;Autovermietung Gruber GmbH;Laura;Gruber;laura.gruber@autovermietung-gruber.example;+49 8171 852196;Schulstraße 4;80331;München;04.01.2018;69.133,61;
+K-10037;Malerbetrieb Wimmer GmbH;Paul;Wimmer;paul.wimmer@malerbetrieb-wimmer.example;+49 8171 484805;Hauptstraße 14;82538;Geretsried;28.03.2023;67.979,28;
+K-10038;Physiotherapie Moser GmbH;Sophie;Moser;;+49 8171 893375;Schulstraße 55;83646;Bad Tölz;13.04.2020;44.862,73;
+K-10039;Malerbetrieb Moser GmbH;Sabine;Moser;sabine.moser@malerbetrieb-moser.example;+49 8171 391888;Schulstraße 14;83607;Holzkirchen;20.04.2023;76.080,75;
+K-10040;Malerbetrieb Hofmann GmbH;Sabine;Hofmann;sabine.hofmann@malerbetrieb-hofmann.example;+49 8171 121022;Isarstraße 65;82319;Starnberg;02.03.2019;56.445,33;
+K-10041;Autovermietung Moser GmbH;Michael;Moser;michael.moser@autovermietung-moser.example;+49 8171 775977;Lindenweg 31;82377;Penzberg;13.05.2022;44.971,85;
+K-10042;Autovermietung Kellner GmbH;Katharina;Kellner;katharina.kellner@autovermietung-kellner.example;+49 8171 611517;Am Anger 49;82515;Wolfratshausen;18.07.2025;51.624,75;
+K-10043;Autovermietung Wagner GmbH;Julia;Wagner;julia.wagner@autovermietung-wagner.example;+49 8171 679689;Am Anger 28;82538;Geretsried;10.08.2024;35.835,74;"Rückruf erbeten; bitte vormittags"
+K-10044;Gartenbau Huber GmbH;Marie;Huber;marie.huber@gartenbau-huber.example;+49 8171 511744;Hauptstraße 68;83646;Bad Tölz;03.08.2021;24.677,05;
+K-10045;Gartenbau Maier GmbH;Marie;Maier;marie.maier@gartenbau-maier.example;+49 8171 806231;Lindenweg 70;82515;Wolfratshausen;18.07.2024;61.592,83;"Rückruf erbeten; bitte vormittags"
+K-10046;Physiotherapie Schuster GmbH;Tobias;Schuster;tobias.schuster@physiotherapie-schuster.example;+49 8171 133687;Hauptstraße 25;80331;München;28.04.2025;77.056,63;
+K-10047;Autovermietung Brandl GmbH;Stefan;Brandl;stefan.brandl@autovermietung-brandl.example;+49 8171 714774;Isarstraße 77;82377;Penzberg;22.03.2024;27.599,36;"Rückruf erbeten; bitte vormittags"
+K-10048;Steuerberatung Brandl GmbH;Stefan;Brandl;stefan.brandl@steuerberatung-brandl.example;+49 8171 982855;Gewerbering 55;80331;München;20.01.2023;51.033,47;
+K-10049;Gartenbau Lechner GmbH;Tobias;Lechner;tobias.lechner@gartenbau-lechner.example;+49 8171 376995;Gewerbering 76;82538;Geretsried;25.08.2025;51.389,06;
+K-10050;Gartenbau Maier GmbH;Jonas;Maier;jonas.maier@gartenbau-maier.example;+49 8171 856331;Hauptstraße 25;82377;Penzberg;02.07.2024;55.313,14;
+K-10051;Elektro Schmid GmbH;Felix;Schmid;felix.schmid@elektro-schmid.example;+49 8171 589247;Lindenweg 50;83646;Bad Tölz;13.08.2022;80.805,32;
+K-10052;Kfz-Service Moser GmbH;Lea;Moser;lea.moser@kfz-service-moser.example;+49 8171 357840;Hauptstraße 68;80331;München;12.08.2018;10.047,09;
+K-10053;Autovermietung Maier GmbH;Tobias;Maier;tobias.maier@autovermietung-maier.example;+49 8171 780127;Hauptstraße 67;82538;Geretsried;22.04.2022;82.014,58;
+K-10054;Haustechnik Bauer GmbH;Andreas;Bauer;andreas.bauer@haustechnik-bauer.example;+49 8171 571062;Gewerbering 57;82538;Geretsried;28.06.2020;71.166,82;"Rückruf erbeten; bitte vormittags"
+K-10055;Malerbetrieb Lechner GmbH;Marie;;marie.lechner@malerbetrieb-lechner.example;+49 8171 708190;Isarstraße 13;82538;Geretsried;09.05.2024;83.734,74;
+K-10056;Haustechnik Schuster GmbH;Tobias;Schuster;tobias.schuster@haustechnik-schuster.example;+49 8171 478991;Lindenweg 79;83607;Holzkirchen;05.05.2023;40.304,01;
+K-10057;Haustechnik Bauer GmbH;Tobias;Bauer;tobias.bauer@haustechnik-bauer.example;+49 8171 587142;Hauptstraße 39;82515;Wolfratshausen;24.05.2025;45.709,59;"Rückruf erbeten; bitte vormittags"
+K-10058;Gartenbau Moser GmbH;Maximilian;Moser;maximilian.moser@gartenbau-moser.example;+49 8171 216942;Gewerbering 2;82515;Wolfratshausen;02.08.2021;82.148,20;
+K-10059;Steuerberatung Fischer GmbH;Petra;Fischer;petra.fischer@steuerberatung-fischer.example;+49 8171 100970;Hauptstraße 8;82319;Starnberg;08.09.2021;5.266,64;
+K-10060;Zahntechnik Maier GmbH;Marie;Maier;marie.maier@zahntechnik-maier.example;+49 8171 775236;Isarstraße 70;80331;München;07.03.2023;16.216,15;
+K-10061;Schreinerei Weber GmbH;Maximilian;Weber;maximilian.weber@schreinerei-weber.example;+49 8171 467151;Am Anger 78;83646;Bad Tölz;16.11.2024;66.545,14;
+K-10062;Kfz-Service Riedl GmbH;Sophie;Riedl;sophie.riedl@kfz-service-riedl.example;+49 8171 264100;Lindenweg 36;80331;München;16.08.2025;69.339,40;
+K-10063;Elektro Lechner GmbH;Katharina;Lechner;katharina.lechner@elektro-lechner.example;+49 8171 596395;Schulstraße 1;83646;Bad Tölz;22.07.2018;85.724,99;
+K-10064;Kfz-Service Moser GmbH;Maximilian;Moser;maximilian.moser@kfz-service-moser.example;+49 8171 729152;Hauptstraße 33;83607;Holzkirchen;02.10.2020;7.150,43;
+K-10065;Zahntechnik Gruber GmbH;Laura;Gruber;laura.gruber@zahntechnik-gruber.example;+49 8171 838390;Hauptstraße 36;82538;Geretsried;12.06.2024;51.458,74;
+K-10066;Gartenbau Bauer GmbH;Marie;Bauer;marie.bauer@gartenbau-bauer.example;+49 8171 972040;Schulstraße 45;82538;Geretsried;08.08.2019;14.246,31;
+K-10067;Gartenbau Schmid GmbH;Katharina;Schmid;katharina.schmid@gartenbau-schmid.example;+49 8171 297843;Isarstraße 53;83646;Bad Tölz;11.03.2018;2.821,71;
+K-10068;Malerbetrieb Bauer GmbH;Lukas;Bauer;lukas.bauer@malerbetrieb-bauer.example;+49 8171 153133;Bahnhofstraße 14;80331;München;20.07.2025;32.993,36;
+K-10069;Haustechnik Huber GmbH;Jonas;Huber;jonas.huber@haustechnik-huber.example;+49 8171 666073;Hauptstraße 74;82377;Penzberg;28.02.2022;60.749,98;
+K-10070;Haustechnik Schuster GmbH;Petra;Schuster;petra.schuster@haustechnik-schuster.example;+49 8171 464765;Gewerbering 52;83646;Bad Tölz;13.04.2019;61.050,34;
+K-10071;Elektro Brandl GmbH;Michael;Brandl;michael.brandl@elektro-brandl.example;+49 8171 848048;Am Anger 62;83646;Bad Tölz;27.08.2023;32.475,05;
+K-10072;Elektro Brandl GmbH;Anna;Brandl;anna.brandl@elektro-brandl.example;+49 8171 547840;Bahnhofstraße 43;82377;Penzberg;14.05.2019;9.076,70;"Rückruf erbeten; bitte vormittags"
+K-10073;Physiotherapie Brandl GmbH;Stefan;Brandl;stefan.brandl@physiotherapie-brandl.example;+49 8171 447903;Schulstraße 30;83607;Holzkirchen;19.09.2024;33.645,06;"Rückruf erbeten; bitte vormittags"
+K-10074;Elektro Bauer GmbH;Lukas;Bauer;lukas.bauer@elektro-bauer.example;+49 8171 137360;Isarstraße 78;80331;München;19.03.2018;79.781,86;
+K-10075;Schreinerei Schuster GmbH;Andreas;Schuster;andreas.schuster@schreinerei-schuster.example;+49 8171 572919;Lindenweg 48;80331;München;02.05.2021;57.739,35;
+K-10076;Physiotherapie Gruber GmbH;Stefan;Gruber;stefan.gruber@physiotherapie-gruber.example;+49 8171 282602;Hauptstraße 18;82538;Geretsried;02.09.2025;3.520,56;
+K-10077;Gartenbau Lechner GmbH;Katharina;Lechner;katharina.lechner@gartenbau-lechner.example;+49 8171 498101;Am Anger 17;82319;Starnberg;02.11.2024;57.394,43;"Rückruf erbeten; bitte vormittags"
+K-10078;Elektro Fischer GmbH;Felix;Fischer;felix.fischer@elektro-fischer.example;+49 8171 319851;Isarstraße 3;82377;Penzberg;26.01.2025;80.487,65;
+K-10079;Zahntechnik Lechner GmbH;Sophie;Lechner;sophie.lechner@zahntechnik-lechner.example;+49 8171 962079;Schulstraße 5;8253;Penzberg;12.12.2024;24.153,34;
+K-10080;Schreinerei Wagner GmbH;Maximilian;Wagner;maximilian.wagner@schreinerei-wagner.example;+49 8171 418033;Hauptstraße 14;82515;Wolfratshausen;12.08.2024;21.435,97;"Rückruf erbeten; bitte vormittags"
+K-10081;Steuerberatung Schuster GmbH;Petra;Schuster;petra.schuster@steuerberatung-schuster.example;+49 8171 219170;Lindenweg 30;82319;Starnberg;02.08.2024;69.665,58;
+K-10082;Haustechnik Huber GmbH;Andreas;Huber;andreas.huber@haustechnik-huber.example;+49 8171 551067;Lindenweg 60;83607;Holzkirchen;24.08.2018;58.412,78;
+K-10083;Gartenbau Bauer GmbH;Lukas;Bauer;lukas.bauer@gartenbau-bauer.example;+49 8171 869164;Gewerbering 27;83607;Holzkirchen;19.10.2025;61.494,47;
+K-10084;Steuerberatung Brandl GmbH;Stefan;Brandl;stefan.brandl@steuerberatung-brandl.example;+49 8171 755933;Bahnhofstraße 30;80331;München;17.03.2025;12.663,57;
+K-10085;Physiotherapie Gruber GmbH;Jonas;Gruber;jonas.gruber@physiotherapie-gruber.example;+49 8171 828320;Hauptstraße 59;80331;München;21.02.2023;36.114,49;
+K-10086;Gartenbau Maier GmbH;Anna;Maier;anna.maier@gartenbau-maier.example;+49 8171 477746;Bahnhofstraße 77;83607;Holzkirchen;17.08.2018;8.852,92;
+K-10087;Kfz-Service Schmid GmbH;Tobias;Schmid;tobias.schmid@kfz-service-schmid.example;+49 8171 986840;Bahnhofstraße 4;82515;Wolfratshausen;07.11.2021;73.814,36;
+K-10088;Steuerberatung Wimmer GmbH;Laura;Wimmer;laura.wimmer@steuerberatung-wimmer.example;+49 8171 757046;Hauptstraße 42;80331;München;19.05.2025;4.415,00;
+K-10089;Gartenbau Schuster GmbH;Laura;Schuster;laura.schuster@gartenbau-schuster.example;+49 8171 561678;Isarstraße 43;82538;Geretsried;27.11.2024;61.666,24;
+K-10090;Kfz-Service Fischer GmbH;Felix;Fischer;felix.fischer@kfz-service-fischer.example;+49 8171 877698;Hauptstraße 43;80331;München;21.10.2023;36.766,50;
+K-10091;Zahntechnik Schuster GmbH;Marie;Schuster;marie.schuster@zahntechnik-schuster.example;+49 8171 160106;Lindenweg 9;82377;Penzberg;13.01.2023;4.017,16;
+K-10092;Physiotherapie Schuster GmbH;Julia;Schuster;julia.schuster@physiotherapie-schuster.example;+49 8171 907725;Gewerbering 44;82515;Wolfratshausen;02.05.2018;84.912,70;
+K-10093;Malerbetrieb Maier GmbH;Michael;Maier;michael.maier@malerbetrieb-maier.example;+49 8171 236977;Schulstraße 33;82377;Penzberg;28.04.2024;44.547,71;"Rückruf erbeten; bitte vormittags"
+K-10094;Malerbetrieb Brandl GmbH;Sophie;Brandl;sophie.brandl@malerbetrieb-brandl.example;+49 8171 547668;Schulstraße 54;83607;Holzkirchen;11.07.2024;41.117,68;
+K-10095;Elektro Gruber GmbH;Laura;Gruber;laura.gruber@elektro-gruber.example;+49 8171 584184;Schulstraße 11;82377;Penzberg;10.05.2024;21.220,45;
+K-10096;Gartenbau Lechner GmbH;Sophie;Lechner;sophie.lechner@gartenbau-lechner.example;+49 8171 460518;Lindenweg 61;80331;München;15.04.2018;9.889,56;
+K-10096;Gartenbau Wimmer GmbH;Marie;Wimmer;marie.wimmer@gartenbau-wimmer.example;+49 8171 102914;Lindenweg 73;80331;München;15.06.2022;40.776,15;
+K-10098;Gartenbau Huber GmbH;Lea;Huber;lea.huber@gartenbau-huber.example;+49 8171 290854;Hauptstraße 35;82377;Penzberg;28.06.2021;68.731,81;
+K-10099;Autovermietung Maier GmbH;Andreas;Maier;andreas.maier@autovermietung-maier.example;+49 8171 893994;Am Anger 21;83607;Holzkirchen;18.12.2024;44.698,58;
+K-10100;Zahntechnik Fischer GmbH;Stefan;Fischer;stefan.fischer@zahntechnik-fischer.example;+49 8171 857112;Isarstraße 49;82319;Starnberg;16.12.2018;28.677,81;
+K-10101;Steuerberatung Riedl GmbH;Sabine;Riedl;sabine.riedl@steuerberatung-riedl.example;+49 8171 438478;Schulstraße 55;80331;München;23.03.2022;80.555,12;
+K-10102;Elektro Moser GmbH;Stefan;Moser;stefan.moser@elektro-moser.example;+49 8171 215160;Lindenweg 48;80331;München;24.09.2018;991,37;"Rückruf erbeten; bitte vormittags"
+K-10103;Haustechnik Brandl GmbH;Michael;Brandl;michael.brandl@haustechnik-brandl.example;+49 8171 339649;Am Anger 30;80331;München;18.01.2022;51.940,02;
+K-10104;Kfz-Service Wagner GmbH;Sabine;Wagner;sabine.wagner@kfz-service-wagner.example;+49 8171 860350;Bahnhofstraße 78;82377;Penzberg;14.12.2023;9.054,07;
+K-10105;Schreinerei Maier GmbH;Laura;Maier;laura.maier@schreinerei-maier.example;+49 8171 451913;Gewerbering 64;82377;Penzberg;20.02.2025;62.366,43;
+K-10106;Gartenbau Wagner GmbH;Michael;Wagner;michael.wagner@gartenbau-wagner.example;+49 8171 829794;Lindenweg 22;83607;Holzkirchen;20.04.2020;58.420,06;
+K-10107;Kfz-Service Schmid GmbH;Julia;Schmid;julia.schmid@kfz-service-schmid.example;+49 8171 878452;Bahnhofstraße 18;83607;Holzkirchen;06.10.2025;11.477,44;
+K-10108;Elektro Wimmer GmbH;Katharina;Wimmer;katharina.wimmer@elektro-wimmer.example;+49 8171 487512;Isarstraße 1;83607;Holzkirchen;14.01.2018;35.510,69;
+K-10109;Malerbetrieb Hofmann GmbH;Felix;Hofmann;felix.hofmann@malerbetrieb-hofmann.example;+49 8171 737551;Schulstraße 32;82515;Wolfratshausen;01.12.2024;17.833,77;
+K-10110;Kfz-Service Schuster GmbH;Anna;Schuster;anna.schuster@kfz-service-schuster.example;+49 8171 453702;Bahnhofstraße 64;83607;Holzkirchen;06.06.2022;68.566,49;
+K-10111;Autovermietung Lechner GmbH;Anna;Lechner;anna.lechner@autovermietung-lechner.example;+49 8171 124030;Gewerbering 54;82515;Wolfratshausen;26.08.2025;65.169,28;"Rückruf erbeten; bitte vormittags"
+K-10112;Gartenbau Kellner GmbH;Laura;Kellner;laura.kellner@gartenbau-kellner.example;+49 8171 287669;Isarstraße 66;83607;Holzkirchen;04.04.2018;8.567,25;
+K-10113;Gartenbau Schmid GmbH;Lea;Schmid;lea.schmid@gartenbau-schmid.example;+49 8171 463981;Bahnhofstraße 16;83646;Bad Tölz;23.04.2020;24.755,57;
+K-10114;Steuerberatung Bauer GmbH;Andreas;Bauer;andreas.bauer@steuerberatung-bauer.example;+49 8171 934442;Gewerbering 23;82377;Penzberg;18.08.2018;71.653,79;
+K-10115;Physiotherapie Schuster GmbH;Lukas;Schuster;lukas.schuster@physiotherapie-schuster.example;+49 8171 861943;Schulstraße 72;83646;Bad Tölz;10.10.2025;29.240,04;
+K-10116;Elektro Weber GmbH;Marie;Weber;marie.weber@elektro-weber.example;+49 8171 931848;Am Anger 53;82538;Geretsried;28.11.2024;53.451,72;
+K-10117;Kfz-Service Bauer GmbH;Jonas;Bauer;jonas.bauer@kfz-service-bauer.example;+49 8171 496181;Lindenweg 52;83607;Holzkirchen;23.03.2025;24.000,58;
+K-10118;Elektro Huber GmbH;Jonas;Huber;jonas.huber@elektro-huber.example;+49 8171 738253;Hauptstraße 63;83646;Bad Tölz;20.04.2023;17.811,39;
+K-10119;Haustechnik Hofmann GmbH;Sabine;Hofmann;sabine.hofmann@haustechnik-hofmann.example;+49 8171 710123;Gewerbering 50;82538;Geretsried;31.02.2023;23.745,11;
+K-10120;Elektro Fischer GmbH;Sophie;Fischer;sophie.fischer@elektro-fischer.example;+49 8171 258806;Isarstraße 35;82538;Geretsried;01.07.2022;17.318,38;"Rückruf erbeten; bitte vormittags"
+K-10121;Schreinerei Kellner GmbH;Marie;Kellner;marie.kellner@schreinerei-kellner.example;+49 8171 289253;Bahnhofstraße 17;83607;Holzkirchen;21.09.2019;35.330,80;
+K-10122;Malerbetrieb Weber GmbH;Jonas;Weber;jonas.weber@malerbetrieb-weber.example;+49 8171 346021;Am Anger 17;82377;Penzberg;03.11.2020;53.167,11;
+K-10123;Elektro Kellner GmbH;Sabine;Kellner;sabine.kellner@elektro-kellner.example;+49 8171 777242;Hauptstraße 71;82538;Geretsried;06.03.2025;86.465,54;
+K-10124;Steuerberatung Fischer GmbH;Michael;Fischer;michael.fischer@steuerberatung-fischer.example;+49 8171 239511;Am Anger 24;80331;München;24.06.2024;31.023,77;
+K-10125;Autovermietung Bauer GmbH;Felix;Bauer;felix.bauer@autovermietung-bauer.example;+49 8171 877062;Bahnhofstraße 14;82515;Wolfratshausen;21.02.2021;85.988,62;
+K-10126;Haustechnik Gruber GmbH;Andreas;Gruber;andreas.gruber@haustechnik-gruber.example;+49 8171 540666;Bahnhofstraße 22;82377;Penzberg;04.04.2023;31.114,96;
+K-10127;Elektro Hofmann GmbH;Sabine;Hofmann;sabine.hofmann@elektro-hofmann.example;+49 8171 110485;Gewerbering 57;82319;Starnberg;03.08.2020;20.577,25;
+K-10128;Physiotherapie Wagner GmbH;Lea;Wagner;lea.wagner@physiotherapie-wagner.example;+49 8171 588458;Isarstraße 63;82319;Starnberg;09.09.2021;5.631,76;
+K-10129;Haustechnik Moser GmbH;Andreas;Moser;andreas.moser@haustechnik-moser.example;+49 8171 382576;Schulstraße 26;83607;Holzkirchen;20.11.2020;57.388,52;
+K-10130;Elektro Fischer GmbH;Sabine;Fischer;sabine.fischer@elektro-fischer.example;+49 8171 542489;Bahnhofstraße 58;82515;Wolfratshausen;27.05.2018;24.584,63;"Rückruf erbeten; bitte vormittags"
+K-10131;Autovermietung Brandl GmbH;Maximilian;Brandl;maximilian.brandl@autovermietung-brandl.example;+49 8171 833214;Am Anger 27;82538;Geretsried;12.10.2024;74.435,18;
+K-10132;Steuerberatung Maier GmbH;Lukas;Maier;lukas.maier@steuerberatung-maier.example;+49 8171 260769;Bahnhofstraße 68;80331;München;23.05.2022;53.406,88;
+K-10133;Zahntechnik Riedl GmbH;Paul;Riedl;paul.riedl@zahntechnik-riedl.example;+49 8171 548570;Gewerbering 20;82515;Wolfratshausen;15.12.2025;55.127,89;
+K-10134;Malerbetrieb Maier GmbH;Laura;Maier;laura.maier@malerbetrieb-maier.example;+49 8171 815639;Bahnhofstraße 26;83607;Holzkirchen;11.05.2025;k. A.;
+K-10135;Steuerberatung Moser GmbH;Julia;Moser;julia.moser@steuerberatung-moser.example;+49 8171 253163;Bahnhofstraße 54;80331;München;18.05.2023;13.712,50;
+K-10136;Malerbetrieb Kellner GmbH;Tobias;Kellner;tobias.kellner@malerbetrieb-kellner.example;+49 8171 862523;Isarstraße 74;82515;Wolfratshausen;16.04.2019;44.706,16;
+K-10137;Gartenbau Wimmer GmbH;Michael;Wimmer;michael.wimmer@gartenbau-wimmer.example;+49 8171 384514;Bahnhofstraße 66;82538;Geretsried;23.09.2021;33.863,76;
+K-10138;Elektro Lechner GmbH;Marie;Lechner;marie.lechner@elektro-lechner.example;+49 8171 560141;Schulstraße 55;82515;Wolfratshausen;13.10.2024;33.300,78;
+K-10139;Schreinerei Wimmer GmbH;Michael;Wimmer;michael.wimmer@schreinerei-wimmer.example;+49 8171 740512;Bahnhofstraße 77;83607;Holzkirchen;04.01.2025;79.214,56;
+K-10140;Gartenbau Wagner GmbH;Sabine;Wagner;sabine.wagner@gartenbau-wagner.example;+49 8171 583371;Isarstraße 41;80331;München;25.05.2025;26.065,85;
+K-10141;Kfz-Service Hofmann GmbH;Katharina;Hofmann;katharina.hofmann@kfz-service-hofmann.example;+49 8171 320539;Lindenweg 6;82377;Penzberg;02.06.2025;55.026,40;
+K-10142;Physiotherapie Huber GmbH;Lukas;Huber;lukas.huber@physiotherapie-huber.example;+49 8171 620364;Lindenweg 17;82538;Geretsried;16.06.2018;62.687,92;

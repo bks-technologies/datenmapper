@@ -1,0 +1,804 @@
+{
+  "kunden": [
+    {
+      "kundennummer": "K-10001",
+      "firma": "Autovermietung Wimmer GmbH",
+      "kontakt": {
+        "vorname": "Anna",
+        "nachname": "Wimmer",
+        "email": "anna.wimmer@autovermietung-wimmer.example",
+        "telefon": "+49 8171 776846"
+      },
+      "adresse": {
+        "strasse": "Gewerbering 44",
+        "plz": "82515",
+        "ort": "Wolfratshausen"
+      },
+      "kundeSeit": "2020-07-21",
+      "umsatz": 61606.3,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10002",
+      "firma": "Zahntechnik Maier GmbH",
+      "kontakt": {
+        "vorname": "Sabine",
+        "nachname": "Maier",
+        "email": "sabine.maier@zahntechnik-maier.example",
+        "telefon": "+49 8171 521105"
+      },
+      "adresse": {
+        "strasse": "Schulstraße 65",
+        "plz": "80331",
+        "ort": "München"
+      },
+      "kundeSeit": "2023-01-20",
+      "umsatz": 11055.28,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10003",
+      "firma": "Steuerberatung Schuster GmbH",
+      "kontakt": {
+        "vorname": "Petra",
+        "nachname": "Schuster",
+        "email": "petra.schuster@steuerberatung-schuster.example",
+        "telefon": "+49 8171 401847"
+      },
+      "adresse": {
+        "strasse": "Gewerbering 27",
+        "plz": "80331",
+        "ort": "München"
+      },
+      "kundeSeit": "2020-11-26",
+      "umsatz": 13731.58,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10004",
+      "firma": "Kfz-Service Schmid GmbH",
+      "kontakt": {
+        "vorname": "Paul",
+        "nachname": "Schmid",
+        "email": "paul.schmid@kfz-service-schmid.example",
+        "telefon": "+49 8171 346141"
+      },
+      "adresse": {
+        "strasse": "Lindenweg 41",
+        "plz": "82377",
+        "ort": "Penzberg"
+      },
+      "kundeSeit": "2018-11-21",
+      "umsatz": 37929.87,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10005",
+      "firma": "Zahntechnik Huber GmbH",
+      "kontakt": {
+        "vorname": "Petra",
+        "nachname": "Huber",
+        "email": "petra.huber@zahntechnik-huber.example",
+        "telefon": "+49 8171 248995"
+      },
+      "adresse": {
+        "strasse": "Am Anger 23",
+        "plz": "83646",
+        "ort": "Bad Tölz"
+      },
+      "kundeSeit": "2022-12-19",
+      "umsatz": 32801.1,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10006",
+      "firma": "Steuerberatung Brandl GmbH",
+      "kontakt": {
+        "vorname": "Felix",
+        "nachname": "Brandl",
+        "email": "felix.brandl@steuerberatung-brandl.example",
+        "telefon": "+49 8171 671616"
+      },
+      "adresse": {
+        "strasse": "Isarstraße 42",
+        "plz": "82515",
+        "ort": "Wolfratshausen"
+      },
+      "kundeSeit": "2024-06-26",
+      "umsatz": 45445.46,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10007",
+      "firma": "Malerbetrieb Weber GmbH",
+      "kontakt": {
+        "vorname": "Petra",
+        "nachname": "Weber",
+        "email": "petra.weber@malerbetrieb-weber.example",
+        "telefon": "+49 8171 452288"
+      },
+      "adresse": {
+        "strasse": "Gewerbering 71",
+        "plz": "82515",
+        "ort": "Wolfratshausen"
+      },
+      "kundeSeit": "2020-05-17",
+      "umsatz": 9996.65,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10008",
+      "firma": "Haustechnik Weber GmbH",
+      "kontakt": {
+        "vorname": "Lukas",
+        "nachname": "Weber",
+        "email": "lukas.weber@haustechnik-weber.example",
+        "telefon": "+49 8171 229827"
+      },
+      "adresse": {
+        "strasse": "Lindenweg 48",
+        "plz": "82538",
+        "ort": "Geretsried"
+      },
+      "kundeSeit": "2023-03-28",
+      "umsatz": 12401.55,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10009",
+      "firma": "Physiotherapie Wimmer GmbH",
+      "kontakt": {
+        "vorname": "Michael",
+        "nachname": "Wimmer",
+        "email": "michael.wimmer@physiotherapie-wimmer.example",
+        "telefon": "+49 8171 323464"
+      },
+      "adresse": {
+        "strasse": "Hauptstraße 1",
+        "plz": "83607",
+        "ort": "Holzkirchen"
+      },
+      "kundeSeit": "2018-04-22",
+      "umsatz": 55515.6,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10010",
+      "firma": "Steuerberatung Hofmann GmbH",
+      "kontakt": {
+        "vorname": "Stefan",
+        "nachname": "Hofmann",
+        "email": "stefan.hofmann@steuerberatung-hofmann.example",
+        "telefon": "+49 8171 904848"
+      },
+      "adresse": {
+        "strasse": "Hauptstraße 40",
+        "plz": "82515",
+        "ort": "Wolfratshausen"
+      },
+      "kundeSeit": "2020-03-25",
+      "umsatz": 267.27,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10011",
+      "firma": "Elektro Wimmer GmbH",
+      "kontakt": {
+        "vorname": "Tobias",
+        "nachname": "Wimmer",
+        "email": "tobias.wimmer@elektro-wimmer.example",
+        "telefon": "+49 8171 711437"
+      },
+      "adresse": {
+        "strasse": "Bahnhofstraße 18",
+        "plz": "83607",
+        "ort": "Holzkirchen"
+      },
+      "kundeSeit": "2022-12-06",
+      "umsatz": 18804.11,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10012",
+      "firma": "Malerbetrieb Kellner GmbH",
+      "kontakt": {
+        "vorname": "Anna",
+        "nachname": "Kellner",
+        "email": "stefan.huber(at)elektro-huber.example",
+        "telefon": "+49 8171 927125"
+      },
+      "adresse": {
+        "strasse": "Hauptstraße 56",
+        "plz": "80331",
+        "ort": "München"
+      },
+      "kundeSeit": "2018-01-14",
+      "umsatz": 80372.06,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10013",
+      "firma": "Kfz-Service Moser GmbH",
+      "kontakt": {
+        "vorname": "Michael",
+        "nachname": "Moser",
+        "email": "michael.moser@kfz-service-moser.example",
+        "telefon": "+49 8171 754898"
+      },
+      "adresse": {
+        "strasse": "Schulstraße 32",
+        "plz": "83607",
+        "ort": "Holzkirchen"
+      },
+      "kundeSeit": "2019-06-22",
+      "umsatz": 21127.29,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10014",
+      "firma": "Zahntechnik Brandl GmbH",
+      "kontakt": {
+        "vorname": "Michael",
+        "nachname": "Brandl",
+        "email": "michael.brandl@zahntechnik-brandl.example",
+        "telefon": "+49 8171 480476"
+      },
+      "adresse": {
+        "strasse": "Bahnhofstraße 25",
+        "plz": "80331",
+        "ort": "München"
+      },
+      "kundeSeit": "2023-05-21",
+      "umsatz": 88693.37,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10015",
+      "firma": "Kfz-Service Moser GmbH",
+      "kontakt": {
+        "vorname": "Tobias",
+        "nachname": "Moser",
+        "email": "tobias.moser@kfz-service-moser.example",
+        "telefon": "+49 8171 601635"
+      },
+      "adresse": {
+        "strasse": "Gewerbering 76",
+        "plz": "82515",
+        "ort": "Wolfratshausen"
+      },
+      "kundeSeit": "2021-02-19",
+      "umsatz": 43386.49,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10016",
+      "firma": "Steuerberatung Wagner GmbH",
+      "kontakt": {
+        "vorname": "Lea",
+        "nachname": "Wagner",
+        "email": "lea.wagner@steuerberatung-wagner.example",
+        "telefon": "+49 8171 426207"
+      },
+      "adresse": {
+        "strasse": "Gewerbering 3",
+        "plz": "82377",
+        "ort": "Penzberg"
+      },
+      "kundeSeit": "2024-07-16",
+      "umsatz": 26895.26,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10017",
+      "firma": "Autovermietung Schuster GmbH",
+      "kontakt": {
+        "vorname": "Jonas",
+        "nachname": "Schuster",
+        "email": "jonas.schuster@autovermietung-schuster.example",
+        "telefon": "+49 8171 795592"
+      },
+      "adresse": {
+        "strasse": "Gewerbering 74",
+        "plz": "82515",
+        "ort": "Wolfratshausen"
+      },
+      "kundeSeit": "2018-06-19",
+      "umsatz": 81901.66,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10018",
+      "firma": "Malerbetrieb Huber GmbH",
+      "kontakt": {
+        "vorname": "Andreas",
+        "nachname": "Huber",
+        "email": "andreas.huber@malerbetrieb-huber.example",
+        "telefon": "+49 8171 222363"
+      },
+      "adresse": {
+        "strasse": "Hauptstraße 9",
+        "plz": "80331",
+        "ort": "München"
+      },
+      "kundeSeit": "2018-11-21",
+      "umsatz": 7636.15,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10019",
+      "firma": "Haustechnik Riedl GmbH",
+      "kontakt": {
+        "vorname": "Julia",
+        "nachname": "Riedl",
+        "email": "julia.riedl@haustechnik-riedl.example",
+        "telefon": "+49 8171 510720"
+      },
+      "adresse": {
+        "strasse": "Schulstraße 34",
+        "plz": "82538",
+        "ort": "Geretsried"
+      },
+      "kundeSeit": "2019-09-06",
+      "umsatz": 60637.81,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10020",
+      "firma": "Elektro Weber GmbH",
+      "kontakt": {
+        "vorname": "Paul",
+        "nachname": "Weber",
+        "email": "paul.weber@elektro-weber.example",
+        "telefon": "+49 8171 932982"
+      },
+      "adresse": {
+        "strasse": "Lindenweg 10",
+        "plz": "82515",
+        "ort": "Wolfratshausen"
+      },
+      "kundeSeit": "2019-12-23",
+      "umsatz": 18911.41,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10021",
+      "firma": "Autovermietung Bauer GmbH",
+      "kontakt": {
+        "vorname": "Jonas",
+        "nachname": "Bauer",
+        "email": "jonas.bauer@autovermietung-bauer.example",
+        "telefon": "+49 8171 167708"
+      },
+      "adresse": {
+        "strasse": "Am Anger 26",
+        "plz": "80331",
+        "ort": "München"
+      },
+      "kundeSeit": "2025-06-16",
+      "umsatz": 374.87,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10022",
+      "firma": "Autovermietung Bauer GmbH",
+      "kontakt": {
+        "vorname": "Paul",
+        "nachname": "Bauer",
+        "email": "paul.bauer@autovermietung-bauer.example",
+        "telefon": "+49 8171 869444"
+      },
+      "adresse": {
+        "strasse": "Schulstraße 65",
+        "plz": "83607",
+        "ort": "Holzkirchen"
+      },
+      "kundeSeit": "2021-10-22",
+      "umsatz": 59565.74,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10023",
+      "firma": "Gartenbau Weber GmbH",
+      "kontakt": {
+        "vorname": "Laura",
+        "nachname": "Weber",
+        "email": "laura.weber@gartenbau-weber.example",
+        "telefon": "+49 8171 669533"
+      },
+      "adresse": {
+        "strasse": "Gewerbering 71",
+        "plz": "82377",
+        "ort": "Penzberg"
+      },
+      "kundeSeit": "2023-09-16",
+      "umsatz": 76066.45,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10024",
+      "firma": "Kfz-Service Hofmann GmbH",
+      "kontakt": {
+        "vorname": "Paul",
+        "nachname": "Hofmann",
+        "email": "paul.hofmann@kfz-service-hofmann.example",
+        "telefon": "+49 8171 894384"
+      },
+      "adresse": {
+        "strasse": "Isarstraße 60",
+        "plz": "83607",
+        "ort": "Holzkirchen"
+      },
+      "kundeSeit": "2020-01-11",
+      "umsatz": 85966.61,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10025",
+      "firma": "Malerbetrieb Maier GmbH",
+      "kontakt": {
+        "vorname": "Jonas",
+        "nachname": "Maier",
+        "email": "jonas.maier@malerbetrieb-maier.example",
+        "telefon": "+49 8171 740314"
+      },
+      "adresse": {
+        "strasse": "Lindenweg 36",
+        "plz": "82538",
+        "ort": "Geretsried"
+      },
+      "kundeSeit": "2023-10-26",
+      "umsatz": 78484.6,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10026",
+      "firma": "Steuerberatung Schmid GmbH",
+      "kontakt": {
+        "vorname": "Michael",
+        "nachname": "Schmid",
+        "email": "michael.schmid@steuerberatung-schmid.example",
+        "telefon": "+49 8171 308300"
+      },
+      "adresse": {
+        "strasse": "Schulstraße 66",
+        "plz": "82377",
+        "ort": "Penzberg"
+      },
+      "kundeSeit": "2022-03-12",
+      "umsatz": 30419.55,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10027",
+      "firma": "Zahntechnik Bauer GmbH",
+      "kontakt": {
+        "vorname": "Michael",
+        "nachname": "Bauer",
+        "email": "michael.bauer@zahntechnik-bauer.example",
+        "telefon": "+49 8171 119421"
+      },
+      "adresse": {
+        "strasse": "Isarstraße 72",
+        "plz": "83607",
+        "ort": "Holzkirchen"
+      },
+      "kundeSeit": "2021-02-01",
+      "umsatz": 15567.86,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10028",
+      "firma": "Haustechnik Schuster GmbH",
+      "kontakt": {
+        "vorname": "Andreas",
+        "nachname": "Schuster",
+        "email": "andreas.schuster@haustechnik-schuster.example",
+        "telefon": "+49 8171 632424"
+      },
+      "adresse": {
+        "strasse": "Gewerbering 11",
+        "plz": "82538",
+        "ort": "Geretsried"
+      },
+      "kundeSeit": "2024-01-18",
+      "umsatz": 29814.62,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10029",
+      "firma": "Schreinerei Brandl GmbH",
+      "kontakt": {
+        "vorname": "Andreas",
+        "nachname": "Brandl",
+        "email": "andreas.brandl@schreinerei-brandl.example",
+        "telefon": "+49 8171 190232"
+      },
+      "adresse": {
+        "strasse": "Hauptstraße 50",
+        "plz": "82319",
+        "ort": "Starnberg"
+      },
+      "kundeSeit": "2022-09-20",
+      "umsatz": 20239.32,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10030",
+      "firma": "Steuerberatung Maier GmbH",
+      "kontakt": {
+        "vorname": "Sophie",
+        "nachname": "Maier",
+        "email": "sophie.maier@steuerberatung-maier.example",
+        "telefon": "+49 8171 147481"
+      },
+      "adresse": {
+        "strasse": "Isarstraße 33",
+        "plz": "80331",
+        "ort": "München"
+      },
+      "kundeSeit": "2025-03-23",
+      "umsatz": 71277.4,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10031",
+      "firma": "Kfz-Service Bauer GmbH",
+      "kontakt": {
+        "vorname": "Sabine",
+        "nachname": "Bauer",
+        "email": "sabine.bauer@kfz-service-bauer.example",
+        "telefon": "+49 8171 811545"
+      },
+      "adresse": {
+        "strasse": "Gewerbering 73",
+        "plz": "82377",
+        "ort": "Penzberg"
+      },
+      "kundeSeit": "2024-06-24",
+      "umsatz": 77234.9,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10032",
+      "firma": "Haustechnik Wagner GmbH",
+      "kontakt": {
+        "vorname": "Katharina",
+        "nachname": "Wagner",
+        "email": "katharina.wagner@haustechnik-wagner.example",
+        "telefon": "+49 8171 335773"
+      },
+      "adresse": {
+        "strasse": "Schulstraße 70",
+        "plz": "83607",
+        "ort": "Holzkirchen"
+      },
+      "kundeSeit": "2018-01-27",
+      "umsatz": 86092.39,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10033",
+      "firma": "Gartenbau Huber GmbH",
+      "kontakt": {
+        "vorname": "Jonas",
+        "nachname": "Huber",
+        "email": "jonas.huber@gartenbau-huber.example",
+        "telefon": "+49 8171 304078"
+      },
+      "adresse": {
+        "strasse": "Hauptstraße 4",
+        "plz": "82377",
+        "ort": "Penzberg"
+      },
+      "kundeSeit": "2021-04-04",
+      "umsatz": 8415.93,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10034",
+      "firma": "Malerbetrieb Kellner GmbH",
+      "kontakt": {
+        "vorname": "Lea",
+        "nachname": "Kellner",
+        "email": "lea.kellner@malerbetrieb-kellner.example",
+        "telefon": "+49 8171 968714"
+      },
+      "adresse": {
+        "strasse": "Gewerbering 77",
+        "plz": "82377",
+        "ort": "Penzberg"
+      },
+      "kundeSeit": "2022-05-20",
+      "umsatz": 64037.26,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10035",
+      "firma": "Elektro Wagner GmbH",
+      "kontakt": {
+        "vorname": "Sabine",
+        "nachname": "Wagner",
+        "email": "sabine.wagner@elektro-wagner.example",
+        "telefon": "+49 8171 448255"
+      },
+      "adresse": {
+        "strasse": "Lindenweg 10",
+        "plz": "82319",
+        "ort": "Starnberg"
+      },
+      "kundeSeit": "2022-06-19",
+      "umsatz": 5971.15,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10036",
+      "firma": "Autovermietung Gruber GmbH",
+      "kontakt": {
+        "vorname": "Laura",
+        "nachname": "Gruber",
+        "email": "laura.gruber@autovermietung-gruber.example",
+        "telefon": "+49 8171 852196"
+      },
+      "adresse": {
+        "strasse": "Schulstraße 4",
+        "plz": "80331",
+        "ort": "München"
+      },
+      "kundeSeit": "2018-01-04",
+      "umsatz": 69133.61,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10037",
+      "firma": "Malerbetrieb Wimmer GmbH",
+      "kontakt": {
+        "vorname": "Paul",
+        "nachname": "Wimmer",
+        "email": "paul.wimmer@malerbetrieb-wimmer.example",
+        "telefon": "+49 8171 484805"
+      },
+      "adresse": {
+        "strasse": "Hauptstraße 14",
+        "plz": "82538",
+        "ort": "Geretsried"
+      },
+      "kundeSeit": "2023-03-28",
+      "umsatz": 67979.28,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10038",
+      "firma": "Physiotherapie Moser GmbH",
+      "kontakt": {
+        "vorname": "Sophie",
+        "nachname": "Moser",
+        "email": "",
+        "telefon": "+49 8171 893375"
+      },
+      "adresse": {
+        "strasse": "Schulstraße 55",
+        "plz": "83646",
+        "ort": "Bad Tölz"
+      },
+      "kundeSeit": "2020-04-13",
+      "umsatz": 44862.73,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10039",
+      "firma": "Malerbetrieb Moser GmbH",
+      "kontakt": {
+        "vorname": "Sabine",
+        "nachname": "Moser",
+        "email": "sabine.moser@malerbetrieb-moser.example",
+        "telefon": "+49 8171 391888"
+      },
+      "adresse": {
+        "strasse": "Schulstraße 14",
+        "plz": "83607",
+        "ort": "Holzkirchen"
+      },
+      "kundeSeit": "2023-04-20",
+      "umsatz": 76080.75,
+      "tags": [
+        "bestand"
+      ]
+    },
+    {
+      "kundennummer": "K-10040",
+      "firma": "Malerbetrieb Hofmann GmbH",
+      "kontakt": {
+        "vorname": "Sabine",
+        "nachname": "Hofmann",
+        "email": "sabine.hofmann@malerbetrieb-hofmann.example",
+        "telefon": "+49 8171 121022"
+      },
+      "adresse": {
+        "strasse": "Isarstraße 65",
+        "plz": "82319",
+        "ort": "Starnberg"
+      },
+      "kundeSeit": "2019-03-02",
+      "umsatz": 56445.33,
+      "tags": [
+        "bestand"
+      ]
+    }
+  ]
+}
