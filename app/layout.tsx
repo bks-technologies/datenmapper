@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? (process.env.VERCEL ? "https://datenmapper.bkstechnologies.de" : "http://localhost:3000")),
   title: "Datenmapper",
   description: "CSV- und JSON-Dateien einem API-Schema zuordnen, prüfen und einspeisen.",
 };
