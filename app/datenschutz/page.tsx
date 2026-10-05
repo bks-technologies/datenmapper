@@ -36,8 +36,8 @@ export default function Datenschutz() {
 
       <h2>4. Hosting</h2>
       <p>
-        Die Anwendung läuft bei Vercel Inc. in der Region Frankfurt am Main. Mit dem Anbieter besteht ein Auftragsverarbeitungsvertrag nach
-        Art. 28 DSGVO. Beim Aufruf verarbeitet der Hosting-Anbieter technisch notwendige Verbindungsdaten (IP-Adresse, Zeitpunkt,
+        Die Anwendung läuft bei Vercel Inc. in der Region Frankfurt am Main. Vercel Inc. hat seinen Sitz in den USA; dabei können Verbindungsdaten auch in die USA übertragen werden.
+        Beim Aufruf verarbeitet der Hosting-Anbieter technisch notwendige Verbindungsdaten (IP-Adresse, Zeitpunkt,
         aufgerufene Adresse) zur Auslieferung und Absicherung (Art. 6 Abs. 1 lit. f DSGVO).
       </p>
 
